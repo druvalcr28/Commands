@@ -7,9 +7,9 @@ def reverse(path):
         s = i + s
     return s
 
-def getNextdir(fullS):
+""" def getNextdir(fullS):
     nextDir = fullS.split("/")[-1]
-    for f in os.listdir():
+    for f in os.listdir(): """
 
 def filterFullpath(fullS):
     i = len(fullS)-1
@@ -37,8 +37,7 @@ def main():
     fullstring = stringUptoStar(givenPath)
     givenPath = getRestPath(givenPath,fullstring)
     fullPath = filterFullpath(fullstring)
-    fullPath = getNextdir(fullstring)
-
+    #fullPath = getNextdir(fullstring)
 
 
 if __name__ == "__main__":

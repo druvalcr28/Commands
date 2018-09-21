@@ -50,8 +50,6 @@ def main():
     else:
         for directory in sys.argv[1:]:
             checkSyntax(directory,0)
-            
-    print("eva")
 
 
 if __name__ == "__main__":
